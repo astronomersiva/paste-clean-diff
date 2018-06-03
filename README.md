@@ -8,7 +8,15 @@ Open the Command Palette(Cmd+Shift+P on macOS, Ctrl+Shift+P on Windows and Linux
 
 ![Paste Clean Diff](pasteCleanDiff.gif)
 
+To clean up an already pasted diff, select the diff and then choose `Clean Diff` from the Command Palette.
+
+![Clean Pasted Diff](cleanPastedDiff.gif)
+
 ## Release Notes
+
+### 1.1.0
+
+Support cleaning already pasted diff
 
 ### 1.0.0
 

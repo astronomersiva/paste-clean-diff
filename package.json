@@ -2,7 +2,7 @@
   "name": "paste-clean-diff",
   "displayName": "paste-clean-diff",
   "description": "A VSCode extension to paste Git diffs without the plus and minus signs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "sivasubramanyam",
   "repository": {
     "type" : "git",
@@ -15,7 +15,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.pasteCleanDiff"
+    "onCommand:extension.pasteCleanDiff",
+    "onCommand:extension.cleanDiff"
   ],
   "main": "./out/extension",
   "contributes": {
@@ -23,6 +24,9 @@
       {
         "command": "extension.pasteCleanDiff",
         "title": "Paste Clean Diff"
+      }, {
+        "command": "extension.cleanDiff",
+        "title": "Clean Diff"
       }
     ]
   },
